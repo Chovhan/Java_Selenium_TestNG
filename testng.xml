@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+
+<suite name="All Test Suite">
+
+    <test verbose="2" preserve-order="true" name="D:/SHIT/Self_improvement/TemerixTestTask">
+        <classes>
+            <class name="Tests.PowerToolsTests">
+                <methods>
+                    <include name="drillsTest" invocation-numbers="3"/>
+                    <include name="puncherTest"/>
+                    <include name="screwdriverTest"/>
+                    <include name="grinderTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+</suite>
